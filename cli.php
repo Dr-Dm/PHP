@@ -1,7 +1,9 @@
 <?php
 require_once __DIR__ . "/vendor/autoload.php";
 
-use Dima\Localhost\{User, Article, Comment};
+use Dima\Localhost\User\User;
+use Dima\Localhost\Article\Article;
+use Dima\Localhost\Comment\Comment;
 
 $faker = Faker\Factory::create();
 
